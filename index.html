@@ -23,7 +23,7 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <div class="container">
+      <div class="container main-nav">
         <nav class="header-nav">
           <a href="/" class="logo"><span>Web</span>Studio</a>
           <ul class="nav-list list">
@@ -37,12 +37,12 @@
           </ul>
         </nav>
         <ul class="header-contacts list">
-          <li class="item">
+          <li class="contacts-item">
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li class="contacts-item">
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -53,7 +53,10 @@
       <!-- Герой -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero-title">
+            Ефективні рішення для<br />
+            вашого бізнесу
+          </h1>
           <button class="hero-button button" type="button">
             Замовити послугу
           </button>
@@ -62,29 +65,29 @@
       <!-- Особливості -->
       <section class="feature section">
         <div class="container">
-          <h2 class="section-title">Особливості</h2>
+          <h2 class="visually-hidden">Особливості</h2>
           <ul class="feature-list list">
-            <li>
+            <li class="feature-item">
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p class="text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -105,15 +108,15 @@
                 alt="десктопні додатки"
                 width="370"
               />
-            </li class="examples-item">
-            <li>
+            </li>
+            <li class="examples-item">
               <img
                 src="./images/mobile.jpg"
                 alt="мобільні додатки"
                 width="370"
               />
-            </li class="examples-item">
-            <li>
+            </li>
+            <li class="examples-item">
               <img
                 src="./images/design.jpg"
                 alt="дизайнерські рішення"
@@ -128,7 +131,7 @@
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="teams-list list">
-            <li>
+            <li class="teams-item">
               <img
                 src="./images/designer.jpg"
                 alt="Дизайнер продукту"
@@ -137,7 +140,7 @@
               <h3 class="title">Ігор Дем'яненко</h3>
               <p lang="en" class="text">Product Designer</p>
             </li>
-            <li>
+            <li class="teams-item">
               <img
                 src="./images/frontend.jpg"
                 alt="Розробник інтерфейсу"
@@ -146,13 +149,17 @@
               <h3 class="title">Ольга Рєпіна</h3>
               <p lang="en" class="text">Frontend Developer</p>
             </li>
-            <li>
+            <li class="teams-item">
               <img src="./images/marketing.jpg" alt="Маркетолог" width="270" />
               <h3 class="title">Микола Тарасов</h3>
               <p lang="en" class="text">Marketing</p>
             </li>
-            <li>
-              <img src="./images/ui.jpg" alt="Дизайнер інтерфейсу" width="270" />
+            <li class="teams-item">
+              <img
+                src="./images/ui.jpg"
+                alt="Дизайнер інтерфейсу"
+                width="270"
+              />
               <h3 class="title">Михайло Єрмаков</h3>
               <p lang="en" class="text">UI Designer</p>
             </li>
@@ -165,7 +172,7 @@
     <footer class="footer">
       <div class="container">
         <a href="/" class="logo"><span>Web</span>Studio</a>
-        <address>
+        <address class="footer-address">
           <ul class="footer-list list">
             <li class="footer-item">
               <a
@@ -180,7 +187,7 @@
                 info@devstudio.com
               </a>
             </li>
-            <li class="footer-item">
+            <li class="footer-item phone">
               <a href="tel:+380961111111" class="link"> +38 096 111 11 11 </a>
             </li>
           </ul>
